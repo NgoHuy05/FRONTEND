@@ -1,1 +1,43 @@
+1. Thẻ Đầu Trang (Head Elements)
+<title>: Xác định tiêu đề của trang web, hiển thị trên thanh tiêu đề của trình duyệt.
+<meta>: Cung cấp thông tin meta cho trang web, như bộ mã ký tự, mô tả, từ khóa, và nhiều hơn nữa.
+<link>: Liên kết đến các tài nguyên bên ngoài như CSS.
+<style>: Định nghĩa các quy tắc CSS nội tuyến.
+<script>: Liên kết đến hoặc chứa mã JavaScript.
 
+2. Thẻ Thân Trang (Body Elements)
+<h1> - <h6>: Các thẻ tiêu đề, <h1> là tiêu đề cấp cao nhất và <h6> là cấp thấp nhất.
+      <h1> HUY DEP TRAI </h1>
+<p> </p>: Thẻ đoạn văn.
+      <p> lalalalalalalallalalala   aaaaaaa
+ffffffffffff </p>     => khi run thi nó sẽ ko xuống dòng mà sẽ viết liền.
+<a> </a>: Thẻ liên kết, dùng để tạo các liên kết đến trang khác hoặc tài nguyên.
+      <a href = "https://www.youtube.com/"> video </a>
+      nếu ko có target tự động nó sẽ là target = "_self"
+target = "_self" khi ấn vào link sẽ truy cập vào link tại cửa sổ đó
+       = "_black" mở cửa sổ khác khi truy cập vào link mà ko làm mất cửa sổ hiện tại
+<img>: Thẻ hình ảnh, dùng để chèn hình ảnh vào trang.
+      <img src ="huy.png" alt = "huy dep trai">
+      alt là text sẽ xuất hiện khi ảnh ko hiển thị
+<ul> </ul>: Danh sách không thứ tự. (đi cùng <li></li>)
+      unorder list
+<ol> </ol>: Danh sách có thứ tự. (đi cùng <li></li>)
+      order list
+<li> </li>: Mục danh sách, sử dụng trong <ul> hoặc <ol>.
+<table>: Tạo bảng.
+<tr>: Dòng bảng, sử dụng trong <table>.
+<td>: Ô bảng, sử dụng trong <tr>.
+<th>: Ô tiêu đề bảng, sử dụng trong <tr>.
+<form>: Tạo biểu mẫu để thu thập dữ liệu từ người dùng.
+<input>: Trường nhập liệu trong biểu mẫu.
+<textarea>: Trường nhập liệu nhiều dòng trong biểu mẫu.
+<button>: Nút nhấn trong biểu mẫu.
+<label> </label>: Nhãn cho các trường nhập liệu.
+<fieldset> </fieldset>: Nhóm các phần tử trong biểu mẫu.
+<legend> </legend>: Tiêu đề cho nhóm các phần tử trong <fieldset>.
+<div>: Khối chứa, dùng để nhóm các phần tử và áp dụng CSS.
+<span>: Khối nội tuyến, dùng để nhóm các phần tử nhỏ và áp dụng CSS.
+<footer>: Phần chân trang của tài liệu.
+<header>: Phần đầu trang của tài liệu.
+<section>: Phần của tài liệu, thường dùng để nhóm các phần nội dung có liên quan.
+<article>: Một bài viết hoặc phần nội dung độc lập.
