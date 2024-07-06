@@ -1,0 +1,29 @@
+1 form của bài html đơn giản:
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset ="UTF-8">
+  <title> </title>
+  ...
+</head>
+<body>
+...
+<footer>
+...
+</footer>
+</body>
+</html>
+
+Mở đầu là <!DOCTYPE html> có tác dụng xác định đoạn code dưới là HTML5
+tiếp là <html lang="en"> hoặc có thể <html lang ="vi"> ngôn ngữ là anh hoặc việt
+tiếp là <head> 
+            <meta charset="UTF-8"> : hỗ trợ đa ngôn ngữ
+            <title> </title> : tiêu đề
+        </head>
+<body>
+(bao gồm nhiều câu lệnh để xây dựng 1 giao diện)
+</body>
+<footer>
+bao gồm các thông tin chân trang của web
+</footer>
+và kết là thẻ đóng </html>
