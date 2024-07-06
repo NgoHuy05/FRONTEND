@@ -7,10 +7,12 @@
   ...
 </head>
 <body>
+  <main>
 ...
-<footer>
+  </main>
+  <footer>
 ...
-</footer>
+  </footer>
 </body>
 </html>
 
