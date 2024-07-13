@@ -1,9 +1,12 @@
 
 h1 {
-  text-align: left;
+  text-align: center;
   color: tomato;
 }
 body {
   text-align: left;
   background-color:lightcyan;  
+}
+.text{
+  text-align: center;
 }
