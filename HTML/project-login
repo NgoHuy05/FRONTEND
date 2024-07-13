@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bang Bang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="icon" href="anh.png" type="image/png">
+</head>
+<body>
+    <main>
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username</label>
+            <input id="username" type="text" placeholder="username" required>
+            <br>
+            <label for="password">Password</label>
+            <input id="password" type="text" placeholder="password" minlength="6" required>
+            <br>
+            <input id="submit" type="submit" value="Sign in">
+        </form>
+    </main>
+</body>
+</html>
