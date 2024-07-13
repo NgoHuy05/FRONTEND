@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="anh.png" type="image/png">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Survey</h1>
+
+        <!-- Câu hỏi 1 -->
+        <fieldset>
+            <legend>Câu 1: Huy có đẹp trai không?</legend>
+            <input id="yes1" type="radio" name="answer1" value="Yes">
+            <label for="yes1">A. YES</label><br>
+            <input id="no1" type="radio" name="answer1" value="No">
+            <label for="no1">B. NO</label>
+        </fieldset>
+
+        <!-- Câu hỏi 2 -->
+        <fieldset>
+            <legend>Câu 2: Huy có học giỏi không (có thể chọn nhiều đáp án)?</legend>
+            <input id="yes2" type="checkbox" name="answer2" value="Yes">
+            <label for="yes2">A. YES</label><br>
+            <input id="co" type="checkbox" name="answer2" value="Co">
+            <label for="co">B. Có</label><br>
+            <input id="a" type="checkbox" name="answer2" value="A">
+            <label for="a">C. A</label><br>
+            <input id="b" type="checkbox" name="answer2" value="B">
+            <label for="b">D. B</label><br>
+            <input id="all" type="checkbox" name="answer2" value="All">
+            <label for="all">E. Tất cả đáp án trên</label>
+        </fieldset>
+
+        <button>Submit</button>
+    </main>
+</body>
+</html>
