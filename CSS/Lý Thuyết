@@ -1,0 +1,67 @@
+- Có 2 cách để sử dụng .css:
+      Cách 1: internal: Use ```style``` attribute
+vd: <h1 style="color:red;">Huy</h1>
+      Cách 2: external
+Trước hết muốn liên kết với file css hãy tạo 1 file css và đặt tên cho nó vd: styles.css
+sau đó trong file .html trong mục 
+<head>
+    <link rel="stylesheet" href="styles.css"> (thêm mục này vào file .html để liên kết)
+</head>
+
+#Selectors:
+  + Element Selector: 
+        syntax: elememt {
+            property: value;
+        }
+  + Class Selector:
+        syntax: .class {
+            property: value;
+        }
+  + ID Selector:
+        syntax: #id {
+            property: value;
+        }
+- chỉnh màu: 
+    color: value;(chữ)
+    background-color: value;(phông)
+- chỉnh chữ:
+    font-family: value; chỉnh phông chữ VD Arial...
+    font-size: value; kích cỡ chữ VD 10px...
+    font-weight: value; độ dày phông chữ VD 10px, normal, bold...
+    font-style: value; kiểu chữ italic, normal...
+    text-decoration: value; trang trí gạch chân underline, overline, line-through
+    text-transform: value; chuẩn hóa uppercase, lowercase, capitalize
+    line-height: value; điểu chỉnh space giữa các dòng
+- chỉnh background:
+    background-image: url('...')
+    background-size: value; thường value là cover bao phủ toàn màn hình
+    background-attachment: value; có fixed và scroll
+- cách comment: /*...*/
+- chỉnh viền:
+  syntax: border: value1 value2 value3 lần lượt theo ưidth, style, color
+          border-radius: value; chỉnh độ tròn cong của viền
+- padding: Tạo khoảng cách bên trong phần tử, giữa nội dung của phần tử và đường viền (border) của nó.
+    padding: 10px; là 4 phía
+    padding: 5px 10px; thứ tự trên-dưới, trái-phải
+    padding: 5px 10px 15px; thứ tự trên, trái-phải, dưới
+    padding: 5px 10px 15px 20px; thứ tự trên, phải, dưới, trái
+- margin: Tạo khoảng cách bên ngoài phần tử, giữa phần tử và các phần tử khác xung quanh nó
+    syntax giống padding
+- width, height
+- styling-text:
+      text-align: value; justify,center,left,right
+      word-spacing
+      letter-spacing
+- list-style-type
+- border:
+      border-collapse: collapse/separate
+      tr:nth-child(even)
+- hover:
+      syntax: element:hover {...;}
+- visited active
+- overflow: auto;
+- opacity: độ mờ đục (0->1) trong đó 0 là trong suốt nghĩa là sẽ ẩn đi phần đó nhưng vẫn chiếm diện tích
+- input[type="text"]
+- select
+- element[attribute="value"]
+    vd: a[target="_blank"]
